@@ -14,7 +14,6 @@ public class cuboDirecao : MonoBehaviour
 
     void Start()
     {
-       
         StartCoroutine(MoveCube());
     }
 
@@ -46,7 +45,7 @@ public class cuboDirecao : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Sphere"))
         {
-           
+            Destroy(collision.gameObject);
             Destroy(gameObject);
 
             
