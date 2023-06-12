@@ -8,7 +8,7 @@
 🔹 [RayCastReciever](#raycastreciever)<br><br>
 🔹 [Elementos e iluminação](#elementos-e-iluminação) 
   
- Além dos scripts principais para utilização do raycast, a também outros scripts responsáveis o funcionamento da cena e interface como 'GameManager.cs' e 'UIManager.cs'
+ Além dos scripts principais para utilização do raycast, há também outros scripts responsáveis pelo funcionamento da cena e interface como 'GameManager.cs' e 'UIManager.cs'
  </p>
  
 ## RayCastShooter
