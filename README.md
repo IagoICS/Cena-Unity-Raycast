@@ -1,14 +1,14 @@
 # **Cena Unity Raycast**
 ## Iago Carvalho e André Vitor Pimentel 📖
 <p align="justify">
- O nosso projeto criado em C# no Unity tem como objetivo criar uma cena 3d que utiliza das ferramentas de raycast com detector de colisões, 
+ O nosso projeto criado em C# no Unity tem como objetivo criar uma cena 3D que utiliza das ferramentas de raycast com detector de colisões, 
  assim como a implementação de recursos de iluminação, o projeto é organizado em scripts diferentes, dividos cada um por uma função:
   
 🔹 [RayCastShooter](#raycastshooter) <br><br>
 🔹 [RayCastReciever](#raycastreciever)<br><br>
 🔹 [Elementos e iluminação](#elementos-e-iluminação) 
   
- Além dos scripts principais para utilização do raycast, há também outros scripts responsáveis pelo funcionamento da cena e interface como 'GameManager.cs' e 'UIManager.cs'
+ Além dos scripts principais para utilização do raycast, há também outros scripts responsáveis pelo funcionamento da cena e interface como 'GameManager.cs' e 'UIManager.cs'.
  </p>
  
 ## RayCastShooter
@@ -38,6 +38,8 @@ Isso permite que outros scripts ou componentes se inscrevam nesse evento e execu
  
 ## Elementos e iluminação 
 <p align="justify">
-A nossa cena consiste em um mapa simples em que o jogador tem como objetivo atirar no alvo indicado utilizando o arco, para completar com a estética da cena, foram adnado um cenário de uma pequena vila, um campo verde
- com algumas casa e outros elementos, como árvores, pedras e outras construções 
+A nossa cena consiste em um mapa simples em que o jogador tem como objetivo atirar no alvo indicado utilizando o arco, para completar com a estética da cena, foram adicionados
+elementos 3D da Assets store como casas, árvores,      e grama, adição de pequenas construções, um carrinho de mão, manequins de treino, um varal, um poço e uma mesa com cadeiras, 
+juntamente com os elementos do local, como o chão e verde, as montanhas ao horizonte e o céu, criam o cenário de uma pequena vila.
+A única iluminação presente no cenário é uma Directional Light utilizada para replicar o sol, ela é colocada sobre a vila com uma pequena inclinação para baixo possui uma cor amarelada, em hexadecimal #FFF4D6
 </p>
