@@ -37,3 +37,7 @@ Isso permite que outros scripts ou componentes se inscrevam nesse evento e execu
 </p>
  
 ## Elementos e iluminação 
+<p align="justify">
+A nossa cena consiste em um mapa simples em que o jogador tem como objetivo atirar no alvo indicado utilizando o arco, para completar com a estética da cena, foram adnado um cenário de uma pequena vila, um campo verde
+ com algumas casa e outros elementos, como árvores, pedras e outras construções 
+</p>
