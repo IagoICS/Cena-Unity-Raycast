@@ -38,8 +38,12 @@ Isso permite que outros scripts ou componentes se inscrevam nesse evento e execu
  
 ## Elementos e iluminação 
 <p align="justify">
-A nossa cena consiste em um mapa simples em que o jogador tem como objetivo atirar no alvo indicado utilizando o arco, para completar com a estética da cena, foram adicionados
-elementos 3D da Assets store como casas, árvores,      e grama, adição de pequenas construções, um carrinho de mão, manequins de treino, um varal, um poço e uma mesa com cadeiras, 
+A nossa cena consiste em um mapa simples em que o jogador tem como objetivo atirar no alvo indicado utilizando o arco, com ajuda de uma mira presente no meio da tela, para completar com a estética da cena, foram adicionados
+elementos 3D da Assets store como casas, árvores, pedras e grama, adição de pequenas construções, um carrinho de mão, manequins de treino, um varal, um poço e uma mesa com cadeiras, 
 juntamente com os elementos do local, como o chão e verde, as montanhas ao horizonte e o céu, criam o cenário de uma pequena vila.
-A única iluminação presente no cenário é uma Directional Light utilizada para replicar o sol, ela é colocada sobre a vila com uma pequena inclinação para baixo possui uma cor amarelada, em hexadecimal #FFF4D6
+A única iluminação presente no cenário é uma Directional Light utilizada para replicar o sol, ela é colocada um pouco afastada da vila na altura das casas com uma pequena inclinação para baixo, posição em 0, 3, 0 
+e rotação em 32, 390, 40, possui uma cor amarelada, em hexadecimal #FFF4D6.
 </p>
+
+![image](https://github.com/IagoICS/Cena-Unity-Raycast/assets/101645810/83f66764-187b-4ce2-a1d1-ed87deae01a1)
+
