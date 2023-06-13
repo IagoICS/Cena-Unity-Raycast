@@ -12,10 +12,10 @@ public class cuboRotacao : MonoBehaviour
         if (collision.gameObject.CompareTag("Sphere"))
         {
             Destroy(collision.gameObject);
-            // Destroi o cubo
+          
             Destroy(gameObject);
 
-            // Instancia um novo cubo a partir do prefab em uma posição aleatória
+          
             Vector3 spawnPosition = GetRandomSpawnPosition();
             Instantiate(cubePrefab, transform.position, Quaternion.Euler(spawnPosition));
         }
@@ -24,8 +24,8 @@ public class cuboRotacao : MonoBehaviour
     Vector3 GetRandomSpawnPosition()
     {
         float randomX = Random.Range(75f, 80f);
-        float randomY = transform.position.y; // Mantém a mesma altura do cubo original
-        float randomZ = transform.position.z; // Mantém a mesma profundidade do cubo original
+        float randomY = transform.position.y; 
+        float randomZ = transform.position.z; 
 
         return new Vector3(randomX, randomY, randomZ);
     }
