@@ -13,7 +13,7 @@ public class cuboSubindo : MonoBehaviour
 
     void Update()
     {
-        // Movimento vertical do cubo
+        
         if (movingUp)
         {
             transform.Translate(Vector3.up * movementSpeed * Time.deltaTime);
@@ -34,10 +34,10 @@ public class cuboSubindo : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Sphere"))
         {
-            // Destroi o cubo
+
             Destroy(gameObject);
 
-            // Instancia um novo cubo a partir do prefab em uma posição aleatória
+           
             Vector3 spawnPosition = GetRandomSpawnPosition();
             GameObject newCube = Instantiate(cubePrefab, spawnPosition, Quaternion.identity);
 
