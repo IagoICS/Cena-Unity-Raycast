@@ -45,5 +45,5 @@ A única iluminação presente no cenário é uma Directional Light utilizada pa
 e rotação em 32, 390, 40, possui uma cor amarelada, em hexadecimal #FFF4D6.
 </p>
 
-![image](https://github.com/IagoICS/Cena-Unity-Raycast/assets/101645810/83f66764-187b-4ce2-a1d1-ed87deae01a1)
+![image](https://github.com/IagoICS/Cena-Unity-Raycast/assets/101645810/5a1b4841-da9a-4ec2-8840-a05a4aec6243)
 
